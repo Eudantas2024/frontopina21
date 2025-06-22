@@ -139,84 +139,54 @@ padding-top: 2rem;
     padding: 0 20px;
   }
 
-  .lista-reclamacoes {
-    padding-top: 2rem;
-  }
 
-  .card-reclamacao {
-    width: 100%;
-    padding: 10px;
-  }
+  .ultimas-reclamacoes h2 {
+  padding-top: 3rem;
+  padding-left: 0rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #004aad;
+}
+  
 
   .barra-busca {
-    max-width: 100%;
-    padding: 5px;
+    max-width: 90%;
+    align-items: center;
+    margin-left: 1px;
+    box-sizing: border-box;
   }
 
   .input-busca {
     font-size: 0.9em;
-    padding: 8px;
+    
   }
 
   .icone-busca {
     font-size: 1.5rem;
     right: 10px;
   }
-}
 
-@media (max-width: 480px) {
-  .ultimas-reclamacoes h2 {
-    font-size: 18px;
-  }
 
-  .card-reclamacao {
-    font-size: 14px;
-  }
-
-  .barra-busca {
-    padding: 10px;
-  }
-
-  .input-busca {
-    font-size: 0.85em;
-    padding: 6px;
-  }
-
-  .icone-busca {
-    font-size: 1.3rem;
-    right: 8px;
-  }
-}
-
-.feedback-e-data {
-  display: flex;
-padding-top: 0;
-padding-bottom: 2rem;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-/* CORREÇÃO PARA ÍCONE DO MEGAFONE */
-.icon-megafone {
-  font-size: 2rem;
-  align-items: center;
+.lista-reclamacoes {
+  padding-top: 2rem;
+  padding-left: 1rem;
   padding-right: 1rem;
-  /* pode ajustar o tamanho do ícone aqui */
-  /* vertical-align: middle; */
+  box-sizing: border-box;
 }
 
-.feedback {
-  display: flex;
-  align-items: baseline;
-
-  font-weight: bold;
-  color: #8a8787;
-  gap: 5px;
+.card-reclamacao {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.data-reclamacao {
-  font-size: 0.7rem;
-  color: #a5a5a5;
+.mensagem-texto {
+  font-size: 0.8rem;
+  width: 100%; /* 🔧 Nunca fixar em 600px */
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
 }

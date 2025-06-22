@@ -44,20 +44,20 @@ p {
 
 /* Responsividade básica */
 @media (max-width: 768px) {
-
-  .container6{
-    width: 100%;
-    width: 768px;
-    padding: 1rem 5rem;
-    text-align: center;
-    padding: 1px 1px 1px 35px;
-    flex-direction: column;
+  
+  .container6 {
+    padding: 0.5rem;
+    align-items: center;
+    max-width: 90%;
   }
 
-
-  .blog2{
-    width: 100%;
-    flex-direction: column;
+  .blog2 {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .logo11{
+    align-items: center;
+    width: 200px;
 
   }
 
