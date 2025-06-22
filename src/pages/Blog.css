@@ -11,15 +11,17 @@
   /* Cor de fundo suave */
 }
 
+
+
 .blog2{
   padding: 1rem 4rem;
   flex-direction: column;
 }
 
-img{
+ .fotoprincipal {
   width: 550px;
-  padding-top: 0.2rem;
-  padding-bottom: rem;
+  padding-top: 0.5rem;
+ 
 }
 
 h2 {
@@ -50,6 +52,13 @@ p {
     align-items: center;
     max-width: 90%;
   }
+
+  .fotoprincipal {
+  width: 350px;
+  align-items: center;
+  padding-top: 0.5rem;
+ 
+}
 
   .blog2 {
     font-size: 0.7rem;
