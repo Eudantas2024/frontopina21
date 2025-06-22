@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
-import './index.css';
+
 
 // Importações dos seus componentes de página
 import Login from './pages/Login';
@@ -9,7 +9,6 @@ import DashboardEmpresa from './pages/Dashboard';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import OrientationWarning from './components/OrientationWarning';
 import Cadastro from './pages/Cadastro'; // Cadastro de Cliente
 import FormularioFeedback from './pages/FormularioFeedback';
 import CadastroEmpresa from './pages/CadastroEmpresa'; // Cadastro de Empresa
@@ -54,7 +53,7 @@ function App() {
 
       <main>
         <Routes>
-          <OrientationWarning />
+          
           {/* Página Inicial */}
           <Route path="/" element={<Home />} />
 
