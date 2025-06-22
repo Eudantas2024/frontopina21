@@ -7,3 +7,6 @@ const API_URL = isLocalhost
 console.log("Usando API:", API_URL);
 
 export default API_URL;
+
+
+// nessa pagina 
