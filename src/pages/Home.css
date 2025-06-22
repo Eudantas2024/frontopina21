@@ -355,3 +355,59 @@ body {
   }
 
 }
+
+@media screen and (orientation: landscape) and (max-height: 500px) {
+  .hero-section {
+    padding: 30px 10px;
+    min-height: 300px;
+    flex-direction: column;
+    background-position: center center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-content .slogan {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .btn-cta {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+  }
+
+  .input-busca-empresa {
+    width: 200px;
+    font-size: 0.7rem;
+  }
+
+  .busca-empresa-flutuante {
+    flex-direction: row;
+    padding: 6px;
+    gap: 5px;
+    position: static;
+    margin: 10px auto;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr 1fr; /* 2 colunas mesmo no celular paisagem */
+    gap: 15px;
+  }
+
+  .benefit-card {
+    padding: 20px 10px;
+  }
+
+  .cta-bottom-section {
+    padding: 30px 10px;
+    flex-direction: column;
+  }
+
+  .cta-card {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+}
