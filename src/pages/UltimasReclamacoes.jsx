@@ -32,7 +32,10 @@ function UltimasReclamacoes() {
 
   // Busca as reclamações aprovadas ao montar o componente
   useEffect(() => {
-    fetch(`${API_URL}/api/reclamacoes/aprovadas`)
+    fetch(`${API_URL}/api/reclamacoes/aprovadas`, {
+      method: 'GET',
+      credentials: 'include', // ✅ necessário quando o backend usa credentials: true
+    })
       .then((res) => {
         if (!res.ok) throw new Error('Erro ao buscar reclamações.');
         return res.json();
@@ -46,6 +49,7 @@ function UltimasReclamacoes() {
         setLoading(false);
       });
   }, []);
+
 
   // Quando terminar o loading, rola para o topo da página
   useEffect(() => {
