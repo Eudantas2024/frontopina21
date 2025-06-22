@@ -7,6 +7,7 @@ import PainelCliente from './pages/ClientePainel';
 import DashboardEmpresa from './pages/Dashboard';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Cadastro from './pages/Cadastro'; // Cadastro de Cliente
 import FormularioFeedback from './pages/FormularioFeedback';
 import CadastroEmpresa from './pages/CadastroEmpresa'; // Cadastro de Empresa
@@ -47,6 +48,7 @@ function App() {
   return (
     <Router>
       <Header userType={userType} onLogout={handleLogout} />
+      <ScrollToTop /> {/* 👈 Componente global ativado */}
 
       <main>
         <Routes>

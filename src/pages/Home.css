@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  
+
   border: none;
 }
 
@@ -12,9 +12,12 @@ body {
   text-align: center;
   background-color: #f8f9fa;
 
-  border: none;   /* Remove qualquer borda */
-  outline: none;  /* Remove qualquer contorno */
-  box-shadow: none; /* Remove sombra que pode parecer borda */
+  border: none;
+  /* Remove qualquer borda */
+  outline: none;
+  /* Remove qualquer contorno */
+  box-shadow: none;
+  /* Remove sombra que pode parecer borda */
 }
 
 
@@ -209,7 +212,8 @@ body {
 }
 
 .icone-lupa {
-  color: #007bff; /* ou azul, como preferir */
+  color: #007bff;
+  /* ou azul, como preferir */
   font-size: 22px;
   margin-right: 8px;
 }
@@ -229,7 +233,8 @@ body {
 }
 
 .input-busca-empresa {
-  height: 44px; /* Altura fixa para alinhamento */
+  height: 44px;
+  /* Altura fixa para alinhamento */
   padding: 0 12px;
   border: 1px solid #ddd;
   border-radius: 4px 0 0 4px;
@@ -244,7 +249,7 @@ body {
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius:2px ;
+  border-radius: 2px;
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 13px;
@@ -277,7 +282,16 @@ body {
   .hero-content .slogan {
     font-size: 1.1rem;
     margin-bottom: 25px;
+    align-items: center;
+    text-align: center;
   }
+
+  .logo11 {
+    opacity: 1;
+    height: 150px;
+    padding-top: 1rem;
+  }
+
 
   .btn-cta {
     padding: 12px 20px;
@@ -287,18 +301,20 @@ body {
 
   .busca-empresa-flutuante {
     position: static;
-    margin:  0 auto 15px auto;
-    max-width:100%;
+    margin: 0 auto 15px auto;
+    max-width: 100%;
     font-size: 0.7rem;
     background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    padding: 8px 12px; ;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 8px 8px;
+    ;
     border-radius: 8px;
     justify-content: center;
   }
 
   .input-busca-empresa {
     width: 100%;
+    font-size: 0.7rem;
     border-radius: 4px;
   }
 
@@ -312,5 +328,27 @@ body {
     height: 100px;
     padding-top: 0.5rem;
   }
-}
 
+  .benefit-card {
+    background-color: #f0f8ff;
+    align-items: center;
+    max-width: 100%;
+    padding: 15px 1px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .btn-cta.primary {
+    max-width: fit-content;
+    font-size: 0.8rem;
+    padding-right: 5px;
+  }
+
+  .btn-cta.btn-cta.secondary {
+    max-width: fit-content;
+    font-size: 0.8rem;
+    padding-right: 5px;
+  }
+
+}

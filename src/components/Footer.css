@@ -1,11 +1,13 @@
 .main-footer {
   display: flex;
-  justify-content: center; /* centraliza as 3 colunas no meio */
+  justify-content: center;
+  /* centraliza as 3 colunas no meio */
   align-items: flex-start;
   background-color: #007bff;
   color: #fff;
   padding: 60px 40px;
-  gap: 60px; /* espaço entre as colunas */
+  gap: 60px;
+  /* espaço entre as colunas */
   flex-wrap: wrap;
   text-align: left;
 }
@@ -16,7 +18,8 @@
   display: flex;
   flex-direction: column;
   gap: 19px;
-  min-width: 250px; /* largura mínima de cada coluna */
+  min-width: 250px;
+  /* largura mínima de cada coluna */
 }
 
 .footer-link {
@@ -78,7 +81,14 @@
 
   .main-footer {
     width: 100%;
+    padding-left: 1rem;
   }
+
+  .social-icons {
+  align-items: center;
+  padding-left: -2rem;
+  margin-left: -2rem;
+  
 
 
 

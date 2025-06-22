@@ -1,25 +1,31 @@
 // src/pages/Blog.jsx
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FaComments, FaHandshake, FaChartLine, FaUserPlus, FaBuilding } from 'react-icons/fa';
 import './Blog.css';
 
 const Blog = () => {
-  // Faz scroll para o topo ao carregar a página
+  const location = useLocation();
+
+  // Faz scroll para o topo toda vez que a rota mudar
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div className="container6">
       <div className="blog2">
-        <img className='fotoprincipal' src="https://espacocerto.net.br/wp-content/uploads/2021/05/iStock-1206820346.jpg" alt="Descrição da imagem" /><br />
-        <img src={'/logo2.svg'} alt="Logo Opina+" className="logo2" />
+        <img
+          className="fotoprincipal"
+          src="https://espacocerto.net.br/wp-content/uploads/2021/05/iStock-1206820346.jpg"
+          alt="Descrição da imagem"
+        /><br />
+        <img src="/logo2.svg" alt="Logo Opina+" className="logo2" />
 
         <h2>Quem Somos</h2>
 
         <p>
-          Na era da informação, onde a opinião do consumidor é mais valiosa do que nunca, nasceu o Opina Mais, o "mais" vem do simbolo de soma, porque queremos adicionar algo a mais aos nossos usuários, sejam clientes, sejam empresas. <br />
+          Na era da informação, onde a opinião do consumidor é mais valiosa do que nunca, nasceu o Opina Mais, o "mais" vem do símbolo de soma, porque queremos adicionar algo a mais aos nossos usuários, sejam clientes, sejam empresas. <br />
           Somos uma plataforma inovadora que conecta clientes e empresas, proporcionando uma comunicação eficiente e transparente para que marcas possam ouvir e evoluir a partir do feedback real de seus consumidores. <br /><br />
 
           <strong>Nossa Missão</strong><br />
@@ -50,7 +56,7 @@ const Blog = () => {
           <strong>Opina+<br />A ponte entre você e as marcas!</strong>
         </p>
 
-        <img src={'/logo4.svg'} alt="Logo Opina+" className="logo11" /><br />
+        <img src="/logo4.svg" alt="Logo Opina+" className="logo11" /><br />
       </div>
     </div>
   );
