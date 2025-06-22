@@ -284,6 +284,7 @@ body {
     margin-bottom: 25px;
     align-items: center;
     text-align: center;
+    max-width: 90%;
   }
 
   .logo11 {
@@ -342,13 +343,15 @@ body {
   .btn-cta.primary {
     max-width: fit-content;
     font-size: 0.8rem;
-    padding-right: 5px;
+    padding-right: 2px;
+    padding-left: 1rem;
   }
 
-  .btn-cta.btn-cta.secondary {
+  .btn-cta.secondary {
     max-width: fit-content;
     font-size: 0.8rem;
-    padding-right: 5px;
+    padding-right: 3px;
+    padding-left: 1rem;
   }
 
 }
