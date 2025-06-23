@@ -43,3 +43,30 @@ p {
   width: 300px;
   margin-bottom: 0;
 }
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+  
+  .container6 {
+    padding: 0.5rem;
+    align-items: center;
+    max-width: 90%;
+  }
+
+  .fotoprincipal {
+  width: 350px;
+  align-items: center;
+  padding-top: 0.5rem;
+ 
+}
+
+  .blog2 {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .logo11{
+    align-items: center;
+    width: 200px;
+
+  }
+}
